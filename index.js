@@ -10,9 +10,7 @@ const moveDodgerRight = () => {
 const moveDodgerHelper = (event) => {
   if (event.keycode === 37){
     moveDodgerLeft()
-  } else {
-    moveDodgerRight ()
-  }
+  } 
 }
 
 document.addEventListener('keydown', moveDodgerHelper)
