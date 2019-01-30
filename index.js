@@ -9,7 +9,7 @@ const moveDodgerLeft = () => {
 const moveDodgerRight = () => {
   const dodger = document.getElementById ('dodger')
   const currentRight = dodger.style.left
-  let currentRightNumber = currentLeft.replace('px', '')
+  let currentRightNumber = currentRight.replace('px', '')
   currentRight - parseInt(currentRightNumber, 10)
   dodger.style.left = currentRightNumber + 5 + 'px'
 }
