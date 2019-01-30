@@ -1,7 +1,7 @@
 const moveDodgerLeft = () => {
   const dodger = document.getElementById ('dodger')
   const currentLeft = dodger.style.left
-  const currentLeftNumber = currenLeft.replace('px', '')
+  const currentLeftNumber = currentLeft.replace('px', '')
 }
 
 const moveDodgerRight = () => {
