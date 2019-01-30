@@ -1,5 +1,5 @@
 const moveDodgerLeft = () => {
-  const dodger = document.getElementID ('dodger')
+  const dodger = document.getElementbyId ('dodger')
   console.log (dodger.style.left)
 }
 
