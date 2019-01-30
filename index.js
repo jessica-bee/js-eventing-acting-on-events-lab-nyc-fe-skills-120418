@@ -1,6 +1,6 @@
 const moveDodgerLeft = () => {
   const dodger = document.getElementById ('dodger')
-  console.log (dodger.style.left)
+  dodger.style.left
 }
 
 const moveDodgerRight = () => {
